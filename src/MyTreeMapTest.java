@@ -130,7 +130,7 @@ public class MyTreeMapTest {
 				assert(false);
 			}
 		}
-		// TODO: fight with hamcrest
+		// TODO: doubt that this TODO: make this statement important
 		// Collections.sort(list);
 		// assertThat(keySet, contains(list));
 	}

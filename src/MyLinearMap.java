@@ -1,6 +1,3 @@
-/**
- *
- */
 package com.allendowney.thinkdast;
 
 import java.util.ArrayList;
@@ -58,12 +55,12 @@ public class MyLinearMap<K, V> implements Map<K, V> {
 	}
 
 	/**
-	 * Returns the entry that contains the target key, or null if there is none.
+	 * Returns the entry that contains the  target key, or null if there is none.
 	 *
 	 * @param target
 	 */
 	private Entry findEntry(Object target) {
-		for (Entry entry: entries) {
+		for (Entry entry : entries) {
 			if (equals(target, entry.getKey())) {
 				return entry;
 			}
